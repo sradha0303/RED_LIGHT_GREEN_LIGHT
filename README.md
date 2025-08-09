@@ -1,5 +1,6 @@
 Red Light Green light
 
+Basic Details
 Developer: Sradha S - [College of Engineering and Management Punnapra, KTU University]
 
 Project Description
@@ -14,6 +15,7 @@ Left Right Left throws you into a digital Squid Game arena! Dodge cones, sprint 
 Technical Details
 Technologies/Components Used
 For Software:
+
 Languages Used: Python 3.9+
 Frameworks Used: Pygame
 Libraries Used:
@@ -23,19 +25,26 @@ random: Generates random obstacle positions and light switch intervals.
 math: Rounds up timer display.
 os: Loads images from the assets/ folder.
 
+
 Tools Used:
 Visual Studio Code (or preferred IDE) for coding.
 File Explorer to manage assets/ folder.
 Image editors (e.g., GIMP, Photopea) for preparing PNGs.
 Terminal/Command Prompt for running the game and installing dependencies.
 
+
 Implementation
 For Software
 Installation:
+
 Ensure Python 3.9+ is installed:
 python --version
+
+
 Install Pygame:
 pip install pygame
+
+
 Set up the project directory in C:\Users\sradha s\Desktop\chronomancers_gambit:
 hackathon/
 ├── red_light_green_light.py
@@ -46,19 +55,28 @@ hackathon/
 │   ├── doll_green.png
 │   └── doll_red.png
 
+
 Place images in the assets/ folder:
+
 Background: Playground/field (e.g., from Wallpapers.com).
 Player: Tracksuit character (e.g., from PNGPlay.com).
 Obstacle: Cone/barrier (e.g., from CleanPNG.com).
 Doll: Squid Game doll (Young-hee) for green/red light (e.g., from PNGArts.com).
 
+
+
 Run:
+
 Navigate to the project directory:
 cd C:\Users\sradha s\Desktop\hackathon
+
+
 Run the game:
 python red_light_green_light.py
 
+
 Gameplay:
+
 Use arrow keys to move the player (speed: 2 pixels/frame) during Green Light.
 Freeze during Red Light to avoid elimination.
 Dodge 5 obstacles to prevent game over.
@@ -67,7 +85,8 @@ Press R to restart after win/loss; press ESC to quit.
 
 
 
-Project Documentation For Software
+Project Documentation
+For Software
 
 Project Location: C:\Users\sradha s\Desktop\hackathon
 Main Script: red_light_green_light.py
@@ -83,6 +102,8 @@ Moving during Red Light triggers game over.
 Player moves at 2 pixels/frame with arrow keys.
 Win by reaching the finish line within 50 seconds.
 Game over reasons: “Time’s Up!”, “Moved During Red Light”, “Hit Obstacle”.
+
+
 Controls: Arrow keys to move, R to restart, ESC to quit.
 
 
@@ -105,16 +126,5 @@ Troubleshooting:
 Images Missing: Ensure assets/background.png, etc., exist. Verify paths/names.
 Lag: Try fixed resolution (e.g., pygame.display.set_mode((1280, 720))).
 Font Issues: Replace arial with pygame.font.SysFont(None, 48).
-
-Sceenshots:
-https://drive.google.com/drive/folders/1tsiVeCA0QoWOUbYkg2OUsP0KUpzvVsZ_
-
-Video:
-https://drive.google.com/drive/folders/1u-C84s0BTPgP6Gm5Rz0Ndt4AiwlK49tC
-
-
-
-
-
 
 
